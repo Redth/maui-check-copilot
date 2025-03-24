@@ -1,0 +1,18 @@
+// Example .vscode/mcp.json
+{
+    // 💡 Inputs will be prompted on first server start,
+    //    then stored securely by VS Code.
+    "inputs": [
+    ],
+    // Note, not "mcpServers"
+    "servers": {
+        // dotnet tool install --global Mcp.Server.MauiDevEnv
+        "MAUI.Dev.Env": {
+            "command": "mcp-server-mauidevenv",
+            "args": [
+            ],
+            "env": {
+            }
+        }
+    }
+}
